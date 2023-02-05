@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unbounded', cursive;
+}
+
+body {
+    display: flex; /* Determina como os elementos vão aparecer na tela */
+    justify-content: center;
+    align-items: center; /* Alinha os itens */
+    height: 100vh; /* Altura / VH = Altura*/
+    width: 100vw; /* Largura / VW = Largura*/
+    background-image: url(https://rare-gallery.com/uploads/posts/1022429-sunlight-sunset-sea-nature-reflection-sky-clouds-sunrise-storm-evening-morning-mist-Sun-horizon-atmosphere-dusk-ultra-wide-light-cloud-mountain-weather-dawn-wave-atmosp.png);
+}
+
+
+.caixa_maior {
+    background-color: black; /* Troca cor de fundo */
+    width: 95%; /* Largura (Para deixar responsivo no Celular) */
+    max-width: 430px; /* Largura máxima (Para deixa responsivo no PC) */
+    opacity: 0.8; /* Transparencia do item */
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input {
+    border: none; /* Borda do elemento */
+    outline: none; /* É a borda que aparece quando seleciona um elemento */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 24px; /* Arredonda as bordas */
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    /*width: calc(100% - 100px);*/
+}
+
+.lupa {
+    height: 20px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right; /* "Flutua" um objeto para a direção que eu pedir dentro do elemento */
+    cursor: pointer; /* Cria uma mão no lugar da seta do mouse ao passar no hover */
+}
+
+button:hover { /* Muda a cor de um botão quando eu passar o mouse em cima */
+    background-color: #7c7c7c6b;
+}
+
+.caixa_media {
+    margin-top: 30px;
+}
+
+.caixa_menor{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-size: 28px; /* Tamanho do texto */
+}
+
+.temp {
+    color: white;
+    margin-top: 30px;
+}
+
+.descricao {
+    color: white;
+    margin-left: 8px;
+    text-transform: capitalize; /* Coloco sempre a primeira letra em maiuscula */
+}
+
+.umidade {
+    color: white;
+    margin-top: 30px;
+}
+
+.icone_nuvem{
+    height: 70px;
+}
