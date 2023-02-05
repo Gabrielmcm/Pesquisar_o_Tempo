@@ -1,2 +1,2 @@
 # Pesquisar_o_Tempo
-Tempo
+Este aplicativo foi feito para fins de prática e estudos de JS.
